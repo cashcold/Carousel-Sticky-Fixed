@@ -1,0 +1,40 @@
+.box{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section-1{
+    background-image: url('../../AllInOne/img/best-mortgage-lenders-for-jumbo-loans.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box h3{
+    padding-top: 60px;
+}
+.box p{
+    color: black;
+    font-size: 2rem;
+}
+.section-2{
+    background-color: aqua;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-3{
+    background-image: url('../../AllInOne/img/people-shopping-with-credit-card_53876-43130.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-4{
+    background-color: rgb(241, 174, 50);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

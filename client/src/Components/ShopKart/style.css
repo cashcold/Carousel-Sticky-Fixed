@@ -1,0 +1,14 @@
+.kartMe{
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.kartNow{
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+.kartNow h3{
+    padding: 2rem 0;
+}

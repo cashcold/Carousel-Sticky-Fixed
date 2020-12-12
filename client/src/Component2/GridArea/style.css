@@ -1,0 +1,190 @@
+
+
+
+.itemDrop img{
+    width: 100px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gridAreaMain{
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    'header header header'
+    'sidebar content content'
+    'sidebar main main'
+    'footer footer footer';
+}
+.header{
+    grid-area: header;
+    height: 15vh;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.recentBtn{
+    border-radius: 50px;
+}
+.content{
+    grid-area: content;
+    min-height: 50vh;
+    width: 100%;
+}
+.contentImg img{
+    width: 100%;
+    padding: 2rem;
+}
+.main{
+    grid-area: main;
+    color: black;
+    padding: 2rem ;
+}
+.itemDrop h4{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.footer{
+    grid-area: footer;
+    background-image: url('../../AllInOne/img2/portrait-happy-smiling-medical-doctor-woman-apple-178673714-removebg-preview.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.nav-links ul{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    color: white;
+    
+}
+.nav-links a:hover{
+    background: rgb(255,214,23);
+        background: linear-gradient(90deg, rgba(255,214,23,1) 21%, rgba(228,193,35,1) 39%, rgba(144,132,83,1) 66%);
+    color: white;
+    font-size: bold;
+    border-bottom: 2px solid white;
+}
+.sidebar h5{
+    margin: 2rem 0;
+    padding: 1rem 0;
+    font-size: larger;
+    display: block;
+}
+.recentDrop img{
+    width: 80%;
+}
+.recentDrop:hover{
+    cursor: pointer;
+}
+.itemDrop:hover{
+    cursor: pointer;
+}
+
+.hideShopKart{
+    display: none;
+}
+.sidebar h5{
+    font-style: italic;
+    transition: all 0.9s ease-in-out;
+}
+.sidebar h5:hover{
+    letter-spacing: 5px;
+    font-size: larger;
+    color: white;
+    background-color: teal;
+}
+.btnBuyNow{
+    position: absolute;
+    top: 20px;
+    right: 1px;
+    opacity: 0;
+}
+.itemDrop{
+    position: relative;
+    margin: 0 1rem;
+    padding: 2rem;
+    transition: all .4s linear;
+}
+.itemDrop:hover{
+   transform: scale(1.1);
+   border-top-left-radius: 10px;
+   border-top-right-radius: 100px;
+}
+
+.itemDrop:hover .btnBuyNow{
+    opacity: 1;
+}
+.itemDrop img{
+    margin: 0 1rem;
+    border-radius: 20px;
+}
+
+.fontIcon{
+    margin-top: -12rem;
+    opacity: 0;
+    transition: all .8s linear;
+}
+.itemNow:hover .fontIcon{
+    opacity: 1;
+}
+
+.itemDrop{
+    color: white;
+    font-weight: 800;
+    background: linear-gradient(to bottom, #665555 0%, #534f4f 40%, #363434 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+}
+.itemDrop p{
+    font-family: 'Architects Daughter', cursive;
+}
+.fas{
+    color: green;
+}
+.productList{
+    margin-top: 50px;
+}
+.productList img{
+    width: 20%;
+}
+.carl img{
+    width: 80%;
+}
+.header{
+    background-color: rgb(110, 99, 99);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.header.sticky{
+   box-shadow: 0 5px  20px rgba(0,0,0,0.5);
+   
+}
+.header.sticky.nav-links a{
+    background-color: #d80d0d;
+    box-shadow: 0 5px  20px rgba(0,0,0,0.5);
+   
+}
+.header.sticky.header{
+    background-color: #d80d0d;
+    height: 10vh;
+    box-shadow: 0 5px  20px rgba(0,0,0,0.5);
+   
+}
+.CarItem img{
+    max-width: 100%;
+}

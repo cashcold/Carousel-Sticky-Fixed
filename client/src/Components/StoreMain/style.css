@@ -1,0 +1,45 @@
+.StoreMain1{
+    width: 100%;
+    text-align: center;
+}
+.phoneh3 {
+    margin: 3rem 0;
+    width: 80%;
+}
+.phoneh3 img{width: 200px;}
+
+.hearPhoneList{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.listPhone:hover{
+    cursor: pointer;
+}
+.listPhone{
+    border: 1px solid red;
+    padding: 1rem 1.5rem;
+    border-top-left-radius:50px ;
+    background-color: black;
+    color: white;
+}
+.listPhone h3{
+    margin: 30px 0;
+}
+
+
+.hearPhone h1{
+    margin: 3rem 0;
+}   
+
+
+
+
+@media screen and (max-width: 700px){
+    .hearPhoneList{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+    .phoneh3 img{width: 100%;}
+}
